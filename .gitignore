@@ -1,0 +1,19 @@
+# --- LINUX SPECIFIKT ---
+# Ignorera binära filer (spelmotorer)
+*.bin
+*.x86_64
+
+# --- QUAKE DATA ---
+# VIKTIGT: Ignorera copyright-skyddat material
+id1/pak1.pak
+id1/pak0.pak
+
+
+# Ignorera stora kompilerade kartor (frivilligt, men rekommenderas)
+*.bsp
+*.lit
+
+# --- SYSTEM & SKRÄP ---
+.DS_Store
+*.log
+*~

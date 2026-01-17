@@ -1,0 +1,1 @@
+cd ~/bin;wget https://raw.githubusercontent.com/ciscon/random/refs/heads/master/quake-scripts/quake-benchmark;chmod +x quake-benchmark;quake-benchmark
