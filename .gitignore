@@ -17,3 +17,7 @@ id1/pak0.pak
 .DS_Store
 *.log
 *~
+*.AppImage
+ezquake/.ezquake_history
+qw/matchinfo/screenshots/
+qw/matchinfo/demos/temp/
