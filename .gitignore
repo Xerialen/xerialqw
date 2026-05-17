@@ -22,3 +22,7 @@ ezquake/.ezquake_history
 qw/matchinfo/screenshots/
 qw/matchinfo/demos/temp/
 ezquake/sb/cache/
+
+# --- Upstream redistributable game packs (huge, re-fetched by the nQuake installer; never in repo history) ---
+*.pk3
+
