@@ -42,3 +42,10 @@ qw/render.cfg
 qw/huditor-undertest.cfg
 ezquake/demo_probe.cfg
 ezquake/demo_shot.cfg
+
+# --- local debris (added 2026-05-29): demos, backups, runner/huditor artifacts ---
+*.mvd
+*.mvd.gz
+*.qwd
+ezquake/configs/config.cfg.*
+_quarantine/
