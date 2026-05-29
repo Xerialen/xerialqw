@@ -26,3 +26,19 @@ ezquake/sb/cache/
 # --- Upstream redistributable game packs (huge, re-fetched by the nQuake installer; never in repo history) ---
 *.pk3
 
+
+# --- Session debris (added 2026-05-29) ---
+# Demos — match recordings kept locally, not in repo
+*.mvd
+*.mvd.gz
+# config.cfg is tracked; its backups are not
+ezquake/configs/config.cfg.*
+*.bak
+# Quarantined old engine binaries
+_quarantine/
+# HUD-capture / huditor runner artifacts (hud-wizard archived; ezhud B-capture runs on servexeri)
+render-helper.bat
+qw/render.cfg
+qw/huditor-undertest.cfg
+ezquake/demo_probe.cfg
+ezquake/demo_shot.cfg
