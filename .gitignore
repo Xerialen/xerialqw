@@ -49,3 +49,5 @@ ezquake/demo_shot.cfg
 *.qwd
 ezquake/configs/config.cfg.*
 _quarantine/
+qw/fragfile.dat
+qw/nquake_default.cfg
